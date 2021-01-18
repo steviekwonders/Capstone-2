@@ -1,0 +1,10 @@
+,metric names,metric values
+0,features_list1,"['disbursed_amount', 'asset_cost', 'ltv', 'branch_id', 'manufacturer_id', 'Employment.Type', 'State_ID', 'Employee_code_ID', 'MobileNo_Avl_Flag', 'Aadhar_flag', 'PAN_flag']"
+1,features_list2,"['VoterID_flag', 'Driving_flag', 'Passport_flag', 'PERFORM_CNS.SCORE', 'PERFORM_CNS.SCORE.DESCRIPTION', 'PRI.NO.OF.ACCTS', 'PRI.ACTIVE.ACCTS', 'PRI.OVERDUE.ACCTS']"
+2,features_list3,"['PRI.CURRENT.BALANCE', 'PRI.SANCTIONED.AMOUNT', 'PRI.DISBURSED.AMOUNT', 'SEC.NO.OF.ACCTS', 'SEC.ACTIVE.ACCTS', 'SEC.OVERDUE.ACCTS', 'SEC.CURRENT.BALANCE']"
+3,features_list4,"['SEC.SANCTIONED.AMOUNT', 'SEC.DISBURSED.AMOUNT', 'PRIMARY.INSTAL.AMT', 'SEC.INSTAL.AMT', 'NEW.ACCTS.IN.LAST.SIX.MONTHS', 'DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS']"
+4,features_list5,"['NO.OF_INQUIRIES', 'birth_year', 'birth_month', 'birth_day', 'Disbursal_year', 'Disbursal_month', 'Disbursal_day', 'AVG.ACCT.AGE', 'CRT.HISTORY.LENGTH']"
+5,predictor variable,loan_default
+6,model,GradientBoostingClassifer
+7,hyperparameters,"['learning_rate: 0.25', 'n_estimators: 150']"
+8,performance metrics,"['confusion matrix', 'f-1 score', 'gridsearchCV', 'train vs test']"
